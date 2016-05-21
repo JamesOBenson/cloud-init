@@ -10,3 +10,7 @@ Openstack Cloud-init scripts
 
 ##cloud-init-ubuntu.sh
 -- Generic cloud-init script to help resolv hostname and perform updates
+
+## cloud-init-devstack-stable-liberty_neutron.sh
+-- cloud-init script to deploy liberty with neutron.
+Neutron is by default not installed.  This will install it for you automatically.
