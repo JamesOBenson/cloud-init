@@ -14,3 +14,8 @@ Openstack Cloud-init scripts
 ## cloud-init-devstack-stable-liberty_neutron.sh
 -- cloud-init script to deploy liberty with neutron.
 Neutron is by default not installed.  This will install it for you automatically.
+
+## cloud-init-devstack-stable-liberty_neutron-www-enabled.sh
+-- cloud-init script to deploy liberty with neutron.
+Neutron is by default not installed.  This will install it for you automatically.
+This cloud-init script also allows instances INSIDE of devstack to be able to ping the outside world i.e. google.com
